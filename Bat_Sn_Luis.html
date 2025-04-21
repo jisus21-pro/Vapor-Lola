@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/KWnt675qmg7WvhoKA" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="English"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar"
+        data-en="▶ Listen">
+    </button>
+
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Batería de San Luis" data-en="San Luis Battery"></h1>
+
+
+
+
+    <div class="container">
+        <h3 id="texto1"
+            data-es="Construida en 1791 al pie del Fuerte de San Miguel, la Batería de San Luis es una fortificación costera clave en la defensa de Campeche durante el siglo XVIII. Diseñada para disparar fuego rasante y evitar desembarcos enemigos, esta estructura rectangular cuenta con un foso, garitas y espacios como cuarteles y almacenes de pólvora. En 1862, protagonizó un enfrentamiento con la cañonera francesa L’Eclair durante la Segunda Intervención Francesa en México . Actualmente, está bajo resguardo del INAH y se ubica en Av. Resurgimiento No. 70, Miramar, Campeche ."
+            data-en="Built in 1791 at the base of Fort San Miguel, San Luis Battery is a coastal fortification that played a crucial role in Campeche's 18th-century defense. Designed for low-trajectory cannon fire to prevent enemy landings, the rectangular structure features a moat, sentry boxes, and spaces like barracks and powder magazines. In 1862, it engaged with the French gunboat L’Eclair during the Second French Intervention in Mexico . Currently, it is under the care of INAH and located at Av. Resurgimiento No. 70, Miramar, Campeche.">
+        </h3>
+    </div>
+
+    <div class="imagenes">
+        <img src="img/Bat_Sn_Luis/San_Luis.jpg" alt="Imagen de la Batería de San Luis">
+        <img src="img/Bat_Sn_Luis/San_Luis2.jpg" alt="Imagen de la Batería de San Luis">
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>
